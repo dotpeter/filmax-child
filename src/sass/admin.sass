@@ -1,0 +1,65 @@
+body
+  @apply bg-dark-purple bg-no-repeat bg-contain text-white
+  background-position: bottom
+  background-position-y: 140%
+
+#login
+  width: 400px
+  #login_error
+    color: #000
+  .message
+    color: #000
+  h1
+    @apply mb-12
+    a
+      width: 200px
+      height: 65.1px
+      background-size: 200px 65.1px
+      @apply mx-auto mb-0
+      &:focus
+        box-shadow: none
+
+  form
+    @apply shadow-none p-10 border-white/0 bg-white uppercase
+    label
+      @apply text-sm text-dark-purple mb-2 font-condensed font-semibold
+    .input
+        @apply w-full border-2 border-white border-b-light-grey py-3 px-2 font-sans text-sm text-dark-purple transition-all duration-500 ease-in-out mx-0
+        &::placeholder
+          @apply font-sans text-gray-300 text-base
+        &:focus
+          outline: none
+          @apply border-b-red shadow-none
+        &:focus-visible
+          outline: none
+    input[type="checkbox"]
+      /* Add if not using autoprefixer */
+      -webkit-appearance: none
+      appearance: none
+      /* For iOS < 15 to remove gradient background */
+      background-color: #fff
+      /* Not removed via appearance */
+      margin: 0
+    input[type="submit"]
+      @apply font-condensed font-bold text-white text-sm transition-all duration-500 ease-in-out inline-flex justify-center items-center bg-red uppercase py-2 px-6 border border-red rounded-none mt-8 hover:text-white hover:bg-dark-red tracking-[1px]
+    .forgetmenot
+      #rememberme
+      label
+
+      
+
+  #backtoblog, #nav
+    @apply font-sans font-light text-center text-white
+    a
+       @apply  font-sans font-light text-white
+
+  input:-webkit-autofill
+    -webkit-box-shadow: 0 0 0 30px white inset
+    -webkit-text-fill-color: #000 !important
+
+.wpml-login-ls
+  form#wpml-login-ls-form
+    select#wpml-language-switcher-locales
+      @apply rounded-none border border-solid uppercase text-xs font-sans font-semibold transition-all duration-300 ease-in hover:bg-white
+    input.button
+      @apply rounded-none border border-solid uppercase text-xs font-sans font-semibold px-4 py-1 transition-all duration-300 ease-in hover:bg-white

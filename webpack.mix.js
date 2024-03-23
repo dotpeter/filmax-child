@@ -10,10 +10,10 @@ mix
     jquery: ['$', 'window.jQuery', 'jQuery']
   })
 
-  .js('assets/js/main.js', 'js')
+  .js('src/js/main.js', 'js')
   //.js('assets/js/blog-ajax.js', 'js')
-  .sass('assets/sass/main.sass', 'css')
-  .sass('assets/sass/admin-login.sass', 'css')
+  .sass('src/sass/main.sass', 'css')
+  .sass('src/sass/admin.sass', 'css')
   .options({
     postCss: [ tailwindcss('./tailwind.config.js') ],
   })

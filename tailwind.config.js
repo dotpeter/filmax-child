@@ -12,12 +12,16 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['Roboto', 'sans-serif'],
-      serif: ['larken', 'serif'],
+      condensed: ['Roboto Condensed', 'sans-serif'],
+      serif: ['Lora', 'serif'],
     },
     extend: {
       colors: {
-        'blue': '#002850',
-        'gold': '#906841',
+        'red': '#e0041d',
+        'dark-red': '#bb081c',
+        'dark-purple': '#1a1d24',
+        'medium-grey': '#737373',
+        'light-grey': '#f2f2f2'
       },
     },
   },

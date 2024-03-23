@@ -12,7 +12,8 @@ function irrev_theme_enqueue_styles() {
 	$the_theme     = wp_get_theme();
 	$theme_version = $the_theme->get( 'Version' );
 
-	wp_enqueue_style( 'filmax-child-style', get_stylesheet_uri() . '/dist/css/main.css', array(), $theme_version );
+	wp_enqueue_style( 'filmax-child-style', get_stylesheet_uri(), array(), $theme_version );
+	wp_enqueue_style( 'irreversivel-style', get_stylesheet_uri() . '/dist/css/main.css', array(), $theme_version );
 
 }
 
