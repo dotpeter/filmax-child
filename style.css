@@ -1,18 +1,21 @@
 /**
- * Theme Name:        Filmax-child
+ * Theme Name:        Filmax Child Theme
+* Theme URI:          http://Filmax.themerex.net/
  * Template:          filmax
- * Description:       Custom child theme for Irreversívle on Filmax Theme.
+ * Description:       Custom child theme for Irreversível on Filmax Theme.
  * Version:           1.0.0
- * Author:            .peter
- * Author URI:        https://example.com
- * Tags:              block-patterns, full-site-editing
- * Text Domain:       irrev
+ * Author:            ThemeREX
+ * Author URI:        http://themerex.net/
+ * Tags:              flexible-header, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, full-width-template, microformats, post-formats, theme-options, threaded-comments, translation-ready
  * Tested up to:      6.4
  * Requires at least: 6.2
  * Requires PHP:      7.4
  * License:           GNU General Public License v2.0 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  */
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
 
 /*pesquisa & icons*/
 .sc_layouts_column_align_right .sc_layouts_item, .sc_layouts_column_align_right .sc_layouts_item + div:not(.sc_layouts_item):not(.vc_row):not(.vc_separator):not(.vc_empty_space):not(.vc_wp_text) {margin-left: 0.5em !important;}
@@ -30,8 +33,8 @@
 /* hover nas imagens dos posts */
 .scheme_default .hover_play .simple:hover,.scheme_default .hover_simple .simple:hover {
 	color: #d32f2f;
-  mix-blend-mode: multiply;
-  background-color: #cc2b2dd4;
+	mix-blend-mode: multiply;
+	background-color: #cc2b2dd4;
 }
 
 .widget_recent_posts .post_item.with_thumb .post_thumb a {
@@ -41,7 +44,7 @@
 
 .widget_recent_posts .post_item.with_thumb .post_thumb a:hover {
 	mix-blend-mode: difference;
-  background-color: #cc2b2dd4;
+	background-color: #cc2b2dd4;
 }
 
 /* Featured images on single posts. */
@@ -55,8 +58,8 @@
 
 /* menu footer */
 .footer_custom .widget.widget_nav_menu .menu li {
-    margin-top: 0px;
-    margin-bottom: 8px;
+	margin-top: 0px;
+	margin-bottom: 8px;
 }
 
 .scheme_dark.footer_custom .widget.widget_nav_menu .menu a {
@@ -87,9 +90,9 @@
 
 /* Esconder comentários */
 .comments_wrap {
-    display: none;
+	display: none;
 }
 /* body background */
 .scheme_default body {
-    background-color: #1a1d24;
+	background-color: #1a1d24;
 }
